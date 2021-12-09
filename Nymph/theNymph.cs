@@ -18,7 +18,7 @@ namespace Nymph
          public class Nymph : SlugBaseCharacter
         {
             public Nymph() : base("The Nymph", FormatVersion.V1, 2) { }
-            public override string Description => "Nimble and small, the Nymph possesses great agility but a fragile stomach.\nYour journey will be marked with a constant need to stay moving.";
+            public override string Description => "The Nymph is a small and agile thing, but possesses vastly inferior strength.\n Use your agility and strange powers to traverse this world.";
             Dictionary<Player, int> glideTimers = new Dictionary<Player, int>();
 
             protected override void Enable()
