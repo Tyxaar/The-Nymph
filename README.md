@@ -11,7 +11,7 @@ However, you are very nimble, being able to run fast and jump high.
 
 ## Installation and Dependencies
 Extract the zip and add the DLL into your BepInEx mods folder!
-**You need the most recent version of Slugbase**
+**You need the most recent beta of Slugbase**
 
 ## Credits
 Nymph coding and art by Tyxaar, with art fixes by Dragoler.
