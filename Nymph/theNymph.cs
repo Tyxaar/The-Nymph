@@ -73,7 +73,7 @@ namespace Nymph
                 }
 
                 //Weather the player is holding a grappleworm or not.
-                bool grabbingGrappleworm = (self.grasps[0].grabbed is TubeWorm || self.grasps[1].grabbed is TubeWorm);
+                bool grabbingGrappleworm = (self.grasps[0]?.grabbed is TubeWorm || self.grasps[1]?.grabbed is TubeWorm);
 
                 //Weather the player is touching terrain
                 bool touchingTerrain = (self.bodyChunks[0].contactPoint != default || self.bodyChunks[1].contactPoint != default || self.canWallJump != 0 && self.canJump > 0 || (self.bodyMode == Player.BodyModeIndex.Stand || self.bodyMode == Player.BodyModeIndex.Crawl || self.bodyMode == Player.BodyModeIndex.ClimbingOnBeam || self.bodyMode == Player.BodyModeIndex.WallClimb || self.bodyMode == Player.BodyModeIndex.CorridorClimb || self.bodyMode == Player.BodyModeIndex.Swimming));
@@ -123,7 +123,7 @@ namespace Nymph
                 //Debug.Log(playerGliding);
                 glideTimers[self] = myGlideTimer;
 
-            }   
+            }
 
             //The colours of the slugcat's body, eyes, and pipe sprite respectively.
             public override Color? SlugcatColor() => new Color(0.54f, 0.42f, 0.73f);
