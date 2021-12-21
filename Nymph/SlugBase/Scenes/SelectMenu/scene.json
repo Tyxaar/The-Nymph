@@ -1,0 +1,54 @@
+{
+	"images": [
+    {
+      "name": "Backdrop.png",
+      "x": 440,
+      "y": 250,
+      "depth": 3.6
+    },
+    {
+      "name": "Buildings.png",
+      "x": 440,
+      "y": 250,
+      "depth": 3.4
+    }
+    {
+      "name": "Chains.png",
+      "x": 440,
+      "y": 250,
+      "depth": 3.2
+    },
+
+    {
+      "name": "ColourVines.png",
+      "x": 440,
+      "y": 250,
+      "depth": 2.9
+    },    
+	{
+      "name": "Nymph.png",
+      "x": 440,
+      "y": 250,
+      "depth": 2.4
+    },
+    {
+      "name": "BlackVines.png",
+      "x": 440,
+      "y": 250,
+      "depth": 2.9
+    },
+    {
+      "name": "FlatImage.png",
+      "x": 0,
+      "y": 0,
+      "flatmode": true,
+      "crisp": false,
+    },
+	],
+	"idledepths":[3],
+	"markx":680,
+	"marky":600,
+	"glowx":660,
+	"glowy":420,
+	"slugcatdepth":2.6,
+}

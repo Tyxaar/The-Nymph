@@ -28,7 +28,19 @@ namespace Nymph
                 On.Player.MovementUpdate += Player_MovementUpdate;
                 On.Player.ctor += Player_ctor;
                 On.Player.ThrownSpear += Player_ThrownSpear;
-              //On.WorldLoader.NextActivity += WorldLoader_NextActivity;
+                On.PlayerGraphics.ctor += PlayerGraphics_ctor;
+                //On.WorldLoader.NextActivity += WorldLoader_NextActivity;
+            }
+
+            private void PlayerGraphics_ctor(On.PlayerGraphics.orig_ctor orig, PlayerGraphics self, PhysicalObject ow)
+            {
+                orig(self, ow); 
+                self.drawPositions[0, 0] = Vector2.Lerp(self.drawPositions[0, 0], self.drawPositions[1, 0], 0.4f);
+            }
+
+            public override Stream GetResource(params string[] path)
+            {
+                return typeof(Nymph).Assembly.GetManifestResourceStream(typeof(Nymph), "SlugBase." + string.Join(".", path));
             }
 
             public override void StartNewGame(Room room)
@@ -125,6 +137,7 @@ namespace Nymph
 
             }
 
+
             //The colours of the slugcat's body, eyes, and pipe sprite respectively.
             public override Color? SlugcatColor() => new Color(0.54f, 0.42f, 0.73f);
             public override Color? SlugcatEyeColor() => new Color(0.1f, 0f, 0.2f);
@@ -159,6 +172,7 @@ namespace Nymph
                 On.Player.MovementUpdate -= Player_MovementUpdate;
                 On.Player.ctor -= Player_ctor;
                 On.Player.ThrownSpear -= Player_ThrownSpear;
+                On.PlayerGraphics.ctor -= PlayerGraphics_ctor;
                 glideTimers.Clear();
             }
          }
@@ -179,7 +193,7 @@ namespace Nymph
             ply.playerState.foodInStomach = 3;
             for (int i = 0; i< 2; i++)
                 {
-                    ply.bodyChunks[i].HardSetPosition(room.MiddleOfTile(24, 60));
+                    ply.bodyChunks[i].HardSetPosition(room.MiddleOfTile(24, 80));
                 ply.bodyChunks[i].vel = new Vector2(0 , 0);
                 }
             if (Timer == 160)

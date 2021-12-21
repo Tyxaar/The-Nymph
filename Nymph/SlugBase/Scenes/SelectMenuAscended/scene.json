@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "name": "NymphGhostBack.png",
+      "x": 390,
+      "y": 200,
+      "depth": 2
+    },
+    {
+      "name": "NymphGhostOutline.png",
+      "x": 390,
+      "y": 200,
+      "depth": 2.3
+    },
+    {
+      "name": "NymphGhostBase.png",
+      "x": 390,
+      "y": 200,
+      "depth": 2.2
+    },
+    {
+      "name": "NymphAscendedFlat.png",
+      "x": 390,
+      "y": 200,
+      "flatmode": true,
+      "crisp": false,
+    }
+  ],
+}
