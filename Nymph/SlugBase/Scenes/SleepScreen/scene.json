@@ -1,9 +1,0 @@
-{
-	"images": [
-		{"name":"ChamberBack.png", "x":682, "y":236, "depth":3.5},
-		{"name":"BackGrass.png", "x":700, "y":100, "depth":2.0},
-		{"name":"MidGrass.png", "x":690, "y":110, "depth":1.7},
-		{"name":"NymphSleep.png", "x":840, "y":170, "depth":1.5},
-		{"name":"FrontGrass.png", "x":480, "y":40, "depth":1.3},
-	],
-}
