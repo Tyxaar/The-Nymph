@@ -102,6 +102,7 @@ namespace TheNymph
 
         public void Player_MovementUpdate(On.Player.orig_MovementUpdate orig, Player self, bool eu)
         {
+            orig(self, eu);
             if (self.SlugCatClass == NymphClass)
             {
                 if (self.bodyMode != Player.BodyModeIndex.CorridorClimb)
@@ -111,7 +112,6 @@ namespace TheNymph
                     self.bodyChunkConnections[0].distance = 17f;
                 }
 
-                orig(self, eu);
                 bool grabbingGrappleworm = (self.grasps[0]?.grabbed is TubeWorm || self.grasps[1]?.grabbed is TubeWorm);
                 bool touchingTerrain = (self.bodyChunks[0].contactPoint != default || self.bodyChunks[1].contactPoint != default || self.canWallJump != 0 && self.canJump > 0 || self.bodyMode == Player.BodyModeIndex.Stand || self.bodyMode == Player.BodyModeIndex.CorridorClimb || self.bodyMode == Player.BodyModeIndex.ClimbingOnBeam || self.bodyMode == Player.BodyModeIndex.WallClimb || self.bodyMode == Player.BodyModeIndex.CorridorClimb || self.bodyMode == Player.BodyModeIndex.Swimming || self.bodyMode == Player.BodyModeIndex.ClimbingOnBeam);
                 bool playerStartGlide = (!touchingTerrain) && self.canJump <= 0 && self.input[0].jmp && !self.input[1].jmp;
