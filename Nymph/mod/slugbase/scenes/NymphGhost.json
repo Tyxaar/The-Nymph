@@ -1,0 +1,17 @@
+{
+	"id": "NymphGhost",
+	"scene_folder": "scenes/NymphSelect",
+	"images": [
+		{ "name": "Backdrop", "pos": [492, 297], "depth": 3.7, "shader": "Basic" },
+		{ "name": "Buildings",    "pos": [605, 427], "depth": 2.8, "shader": "Basic" },
+		{ "name": "Chains",    "pos": [602, 264], "depth": 2.2, "shader": "Basic" },
+		{ "name": "Slugcat",    "pos": [446, 283], "depth": 2.0, "shader": "Basic" },
+		{ "name": "ColourVines",    "pos": [515, 265], "depth": 1.8, "shader": "Basic" },
+		{ "name": "BlackVines",    "pos": [515, 265], "depth": 1.7, "shader": "Basic" }
+	],
+	"idle_depths": [ 2.0 ],
+	"glow_pos": [688, 484],
+	"mark_pos": [689, 583],
+	"select_menu_pos": [0, 0],
+	"slugcat_depth": 2.0
+}

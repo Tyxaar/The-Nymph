@@ -1,0 +1,8 @@
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/obj/Debug/net48/SlugTemplate.csproj.AssemblyReference.cache
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/obj/Debug/net48/SlugTemplate.AssemblyInfoInputs.cache
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/obj/Debug/net48/SlugTemplate.AssemblyInfo.cs
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/obj/Debug/net48/SlugTemplate.csproj.CoreCompileInputs.cache
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/bin/Debug/net48/SlugTemplate.dll
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/bin/Debug/net48/SlugTemplate.pdb
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/obj/Debug/net48/SlugTemplate.dll
+/home/tyxaar/Documents/Modding n stuff/SlugTemplate/src/obj/Debug/net48/SlugTemplate.pdb

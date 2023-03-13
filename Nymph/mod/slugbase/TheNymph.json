@@ -1,0 +1,20 @@
+{
+	"id": "Nymph",
+	"name": "The Nymph",
+	"description": "The Nymph, an agile but frail slugcat.",
+	"features": {
+		"color": "9169db",
+		
+		"custom_colors": [
+        { "name": "Body", "story": "9169db", },
+        { "name": "Eyes", "story": "FFFFFF", },
+        { "name": "Tail", "story": "583499" } ],
+        
+        "nymph/rungame":true,
+		
+		"select_menu_scene": "NymphSelect",
+		"select_menu_scene_ascended": "NymphGhost",
+		"karma":3,
+		"karma_cap":3,
+	}
+}
