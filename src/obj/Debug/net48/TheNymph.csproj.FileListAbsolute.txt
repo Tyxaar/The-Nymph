@@ -1,0 +1,8 @@
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/bin/Debug/net48/TheNymph.dll
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/bin/Debug/net48/TheNymph.pdb
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/obj/Debug/net48/TheNymph.csproj.AssemblyReference.cache
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/obj/Debug/net48/TheNymph.AssemblyInfoInputs.cache
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/obj/Debug/net48/TheNymph.AssemblyInfo.cs
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/obj/Debug/net48/TheNymph.csproj.CoreCompileInputs.cache
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/obj/Debug/net48/TheNymph.dll
+/home/tyxaar/Documents/Modding n stuff/Nymph/src/obj/Debug/net48/TheNymph.pdb
