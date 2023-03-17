@@ -1,4 +1,4 @@
-_The first major release of this Rain World mod, in which you get to play as a new character, The Nymph! Small and nimble, with a focus on outmaneuvering your enemies, your journey will be perilous, and you must utilise your strange powers to survive in this world meant for beings far stronger than you. It also doesn't help that your uncanny agility requires a large amount of food to function._
+_Small and nimble, with a focus on outmaneuvering your enemies, your journey will be perilous, and you must utilise your strange powers to survive in this world meant for beings far stronger than you. It also doesn't help that your uncanny agility requires a large amount of food to function._
 #
 Immense thanks to Slime_Cubed for the SlugBase framework, and all the help he's given me. I'd like to extend that thanks to the RW modding community in general, if anyone's reading this, you know who you are.
 
