@@ -6,7 +6,3 @@ Coding and art by me, with art fixes by the lovely Dragoler.
 ![image](https://user-images.githubusercontent.com/70826625/145713769-60f02ebd-1085-46f8-988c-3ad5280aa645.png)
 
 ### **Also, please read the readme for a complete rundown of your abilities!**
-Links:
-- [Template Walkthrough](https://slimecubed.github.io/slugbase/articles/template.html) for a guide to this template.
-- [SlugBase Docs](https://slimecubed.github.io/slugbase/) for information regarding custom slugcats.
-- [Modding Wiki](https://rainworldmodding.miraheze.org/wiki/Downpour_Reference/Mod_Directories) for `modinfo.json` documentation.
