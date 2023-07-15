@@ -1,9 +1,10 @@
 ﻿{
-	"id": "author.slugtemplate",
-	"name": "Slugcat Template",
-	"version": "0.1.0",
-	"authors": "Author",
-	"description": "A template for making SlugBase mods.",
+	"id": "tyxaar.nymph",
+	"name": "The Nymph",
+	"version": "1.1",
+	"authors": "Tyxaar",
+	"description": "A frail but agile slugcat.",
 	"requirements": [ "slime-cubed.slugbase" ],
-	"requirements_names": [ "SlugBase" ]
+	"requirements_names": [ "SlugBase" ],
+	"tags": ["Campaigns", "Game Mechanics"],
 }

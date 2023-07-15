@@ -11,7 +11,7 @@
 	],
 	"idle_depths": [ 2.0 ],
 	"glow_pos": [0, 0],
-	"mark_pos": [0, 0],
+	"mark_pos": [2000, 2000],
 	"select_menu_pos": [0, 0],
 	"slugcat_depth": 2.0
 }

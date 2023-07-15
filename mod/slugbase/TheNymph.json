@@ -1,20 +1,41 @@
 {
 	"id": "Nymph",
 	"name": "The Nymph",
-	"description": "The Nymph, an agile but frail slugcat.",
+	"description": "A strange creature, small and agile at the cost of physical strength.<LINE> Use your powers to make your way in this world and move fast, traveller.",
 	"features": {
-		"color": "9169db",
-		
+		"color": "9169db",     
 		"custom_colors": [
         { "name": "Body", "story": "9169db", },
         { "name": "Eyes", "story": "FFFFFF", },
-        { "name": "Tail", "story": "583499" } ],
-        
-        "nymph/rungame":true,
-		
+        { "name": "Tail", "story": "341967" } ],
+
 		"select_menu_scene": "NymphSelect",
 		"select_menu_scene_ascended": "NymphGhost",
-		"karma":3,
-		"karma_cap":3,
-	}
+        "sleep_scene":"NymphSleep",
+		"karma":1,
+		"karma_cap":2,
+        "start_room": "SI_A07",
+        "world_state": "Rivulet",
+        "back_spear":true,
+        "weight":0.5,
+
+		"walk_speed":1.5,
+		"climb_speed":1.5,
+		"tunnel_speed":2,
+		"loudness":0.25,
+		"lung_capacity":1.5,
+		"guide_overseer": 1,
+        "food_min":6,
+        "food_max":7,
+
+		"diet":
+	    {
+        "base": "Red",
+        "plants": -1,
+        "overrides":
+            {
+            "KarmaFlower":1,
+            }
+        }   
+               }
 }

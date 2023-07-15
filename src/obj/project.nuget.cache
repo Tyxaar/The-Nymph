@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3VG6ZB8TViviYi+LUtjwLaBS6NWJJAXj86NdVNeVf/5gDaLyWyYUe3rGuZBUr1HS0x19Q1COK4un3qq2KsvkXg==",
+  "success": true,
+  "projectFilePath": "/home/tyxaar/Documents/Modding n stuff/Nymph/src/TheNymph.csproj",
+  "expectedPackageFiles": [
+    "/home/tyxaar/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/tyxaar/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
